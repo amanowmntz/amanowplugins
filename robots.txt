@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /buy/
+
+Sitemap: https://amanowmntz.github.io/amanowplugins/sitemap.xml
