@@ -27,6 +27,7 @@
       setTimeout(function () {
         shot.src = btn.dataset.img;
         shot.alt = btn.dataset.alt || btn.textContent;
+        if (btn.dataset.w) { shot.width = btn.dataset.w; shot.height = btn.dataset.h; }
         if (note) note.innerHTML = btn.dataset.note || '';
         if (box) box.classList.remove('fade');
       }, 180);
